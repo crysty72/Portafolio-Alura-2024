@@ -1,0 +1,639 @@
+
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/* Estilo para el encabezado del menú */
+.menu__header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #13bfea; /* Cambia esto al color de fondo que desees */
+    border-bottom: 1px solid #d07009; /* Línea divisoria bajo el encabezado */
+}
+
+.menu__header img {
+    width: 50px; /* Tamaño de la imagen del encabezado */
+    height: 50px; /* Tamaño de la imagen del encabezado */
+    border-radius: 50%; /* Para hacer la imagen redonda, si lo deseas */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-left: 20px;
+}
+
+.menu__title {
+    font-size: 1.2em; /* Tamaño del texto del título */
+    margin: 20px; /* Eliminar márgenes predeterminados */
+}
+
+/* Estilo para la barra de navegación */
+.menu__list {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 20px; /* Elimina el relleno predeterminado de la lista */
+}
+
+.menu__list__item {
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+    display: inline; /* Para que los elementos de la lista aparezcan en línea */
+}
+
+.menu__list__item a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #333; /* Color del texto del enlace */
+}
+
+.menu__list__item a:hover {
+    color: #171cb7; /* Cambia el color del texto al pasar el mouse */
+}
+
+/*Sección Title*/
+
+/* Estilos para la sección del encabezado */
+.title {
+  
+    padding: 50px  0; /* Relleno superior e inferior */
+    text-align: center; /* Alinear el contenido al centro */
+    background: url(https://image.slidesdocs.com/responsive-images/background/laser-spotlight-show-performance-concert-stage-decoration-pattern-powerpoint-background_a5162783fe__960_540.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/* Estilos para el contenedor del título */
+.title__div {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  
+}
+
+/* Estilos para la imagen del perfil */
+.title__profile {
+    width: 150px; /* Tamaño de la imagen del perfil */
+    height: 150px; /* Tamaño de la imagen del perfil */
+    border-radius: 50%; /* Hacer la imagen redonda */
+    margin-bottom: 20px; /* Espacio entre la imagen y el contenido siguiente */
+}
+
+/* Estilos para el contenedor de texto */
+.title__container {
+    margin-bottom: 20px; /* Espacio entre el contenido y los enlaces de redes sociales */
+}
+
+/* Estilos para el texto del título */
+.title__bio {
+    font-size: 1.5em; /* Tamaño del texto del título */
+    margin-bottom: 10px; /* Espacio entre el texto del título y la subsección */
+    color: #ccc;
+}
+
+/* Estilos para la subsección */
+.title__subsection {
+    font-size: 1.2em; /* Tamaño del texto de la subsección */
+    margin-bottom: 20px; /* Espacio entre la subsección y los enlaces de redes sociales */
+    color: #ccc;
+}
+
+/* Estilos para la lista de enlaces de redes sociales */
+.title__network {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    display: flex; /* Muestra los enlaces en línea */
+    justify-content: center; /* Centra los enlaces horizontalmente */
+   
+}
+
+/* Estilos para los elementos de la lista de enlaces de redes sociales */
+.title__network__item {
+    margin: 0 10px; /* Espacio entre los elementos de la lista */
+    
+}
+
+/* Estilos para los enlaces de redes sociales */
+.title__network__item a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+   color: #ccc;
+}
+.title__network__item a:hover {
+background-color: #6335e3;
+}
+
+/* Estilos para la imagen de flecha junto a los enlaces */
+.title__network__item img {
+    width: 20px; /* Tamaño de la imagen de flecha */
+    height: 20px; /* Tamaño de la imagen de flecha */
+    margin-left: 5px; /* Espacio entre el texto del enlace y la imagen de flecha */
+    background-color: #6ce05a;
+}
+
+
+/*Sección About*/
+
+/* Estilos para la sección "Sobre mi" */
+.about {
+    padding: 20px 0; /* Añade relleno superior e inferior */
+   text-align: center; /* Alinear contenido al centro */
+   background-image: url(https://tse1.mm.bing.net/th?id=OIP.Vdosdz_I_7YbO3LweHpnwQHaEK&pid=Api&P=0&h=180);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+/* Estilos para el contenedor de la sección "Sobre mi" */
+.about__container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    
+  
+}
+
+/* Estilos para el título de la sección "Sobre mi" */
+.about__title {
+    font-size: 2em; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para los párrafos de la sección "Sobre mi" */
+.about__paragraph {
+    font-size: 1.1em; /* Tamaño del texto del párrafo */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para la firma en la sección "Sobre mi" */
+.about__container img {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    display: block; /* Hace que la imagen sea un bloque para centrarla */
+    margin: 0 auto 20px; /* Centra la imagen y añade espacio inferior */
+    border-radius: 50%;;
+}
+
+/* Estilos para la sección "Skills" */
+.skills {
+    padding: 20px 0; /* Añade relleno superior e inferior */
+  
+    text-align: center; /* Alinear contenido al centro */
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Vdosdz_I_7YbO3LweHpnwQHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ 
+}
+
+/* Estilos para el título de la sección "Skills" */
+.skills__title {
+    font-size: 2em; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para la línea de habilidades */
+.skills__line {
+    display: flex; /* Mostrar elementos en línea */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
+    justify-content: center; /* Centrar elementos horizontalmente */
+   
+}
+
+/* Estilos para cada caja de habilidades */
+.skills__box {
+    margin: 10px; /* Margen entre cajas de habilidades */
+    border: #000 1px solid;
+border-radius: 30px;
+    
+}
+.skills__box:hover{
+    background-color: #4698e4;
+}
+/* Estilos para las imágenes de habilidades */
+.skills__img img {
+    width: 100px; /* Tamaño de las imágenes de habilidades */
+    height: 100px; /* Tamaño de las imágenes de habilidades */
+  padding-right: 30px;
+  margin: 20px;
+ 
+}
+
+/* Estilos para los nombres de habilidades */
+.skills__name {
+    font-size: 1.2em; /* Tamaño del texto del nombre de habilidades */
+    margin-top: 10px; /* Espacio superior */
+    margin-right: 20px;
+}
+
+/*Sección Hobbies*/
+
+/* Estilos para la sección "Hobbies" */
+.hobbies {
+    padding: 20px 0 ; /* Añade relleno superior e inferior */
+    background-color: #0f8fc1; /* Color de fondo */
+    text-align: center; /* Alinear contenido al centro */
+}
+
+/* Estilos para el título de la sección "Hobbies" */
+.hobbies__title {
+    font-size: 2em; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio inferior */
+   
+}
+
+/* Estilos para la línea de hobbies */
+.hobbies__line {
+    display: flex; /* Mostrar elementos en línea */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
+    justify-content: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilos para cada caja de hobbies */
+.hobbies__box {
+    margin: 10px; /* Margen entre cajas de hobbies */
+    border: #000 1px solid;
+    border-radius: 20px;
+}
+
+/* Estilos para las imágenes de hobbies */
+.hobbies__img img {
+    width: 100px; /* Tamaño de las imágenes de hobbies */
+    height: 100px; /* Tamaño de las imágenes de hobbies */
+  padding-right: 40px;
+  padding-top: 10px;
+ 
+}
+
+/* Estilos para los nombres de hobbies */
+.hobbies__name {
+    font-size: 1.2em; /* Tamaño del texto del nombre de hobbies */
+    margin-top: 10px; /* Espacio superior */
+    text-align: left;
+}
+
+
+/* Experiencia Académica*/
+
+/* Estilos para la sección "Formación académica" */
+.academic {
+    padding: 20px 0; /* Añade relleno superior e inferior */
+   
+    text-align: center; /* Alinear contenido al centro */
+    background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Estilos para el título de la sección "Formación académica" */
+.academic__title {
+    font-size: 2em; /* Tamaño del texto del título */
+    margin-bottom: 20px; /* Espacio inferior */
+    align-items: center;
+   
+}
+
+/* Estilos para los contenedores de los cursos */
+.academic__courses {
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: center; /* Centrar elementos horizontalmente */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan si no hay suficiente espacio */
+}
+
+
+/* Estilos para cada caja de curso */
+.academic__courses__box {
+    margin: 10px; /* Margen entre cajas de cursos */
+    
+}
+
+.academic__courses__box:hover{
+    background-color: rgb(146, 200, 240);
+}
+/* Estilos para los logotipos de instituciones de formación */
+.academic__courses__item__img img {
+    width: 150px; /* Tamaño de las imágenes de logotipos */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+/* Estilos para los títulos de cursos */
+.academic__courses__item__title h4 {
+    font-size: 1.5em; /* Tamaño del texto del título del curso */
+    margin-top: 10px; /* Espacio superior */
+    margin-right: 20px;
+}
+
+/* Estilos para los subtítulos de cursos */
+.academic__courses__item__subtitle p {
+    font-size: 1.2em; /* Tamaño del texto del subtítulo del curso */
+    margin-top: 10px; /* Espacio superior */
+    margin-right: 20px;
+}
+
+.experience {
+    padding: 20px 0  185px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.experience__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.experience__proyecto {
+    display: flex;
+    margin: 10px;
+    border: #000 1px solid;
+    padding: 10px;
+   
+}
+.experience__proyecto:hover {
+    background-color: #6335e3;
+}
+
+.experience__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__img {
+    
+    width: 100%;
+    max-height: 150px; /* Ajuste la altura máxima de la imagen */
+    object-fit: cover; /* Ajuste el tamaño de la imagen */
+   
+}
+
+.experience__text {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.experience__description {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience__repo,
+.experience__demo {
+    flex: 1;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+   overflow-x: hidden;
+    background-color: #13bfea;
+  }
+  
+  .contacto__text {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .contacto__text__paragraph {
+    color: var(--color-title-section);
+    line-height: 1rem;
+    font-weight: 400;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 4rem;
+    width: 20rem;
+  }
+  
+  input:hover {
+    border-bottom: 3px solid #1c1c1d;
+  }
+  
+  .input::placeholder {
+    visibility: hidden;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 1.2rem;
+    transition: all 0.25s;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .input:not(:placeholder-shown) + .input-label,
+  .input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+  }
+  
+  .textarea-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .textarea-input {
+    width: 18.8rem;
+    min-height: 5rem;
+    padding: 2rem 0.5rem 0.5rem;
+    border-radius: 7px;
+    border: 1px solid var(--background-light);
+    font-weight: 400;
+  }
+  
+  .textarea-input::placeholder {
+    visibility: hidden;
+  }
+  
+  .textarea-input:focus {
+    outline: none;
+  }
+  
+  .textarea-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 1.1rem;
+    transition: all 0.25s;
+  }
+  
+  .textarea-input:not(:placeholder-shown),
+  .textarea-input:focus + .textarea-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+  }
+  
+  .uil-message {
+    font-size: 1.2rem;
+  }
+  
+  /* ERROR STYLES */
+  
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid var(--color-warning);
+    border-radius: 7px;
+  }
+  
+  .input-container--invalid .input-label {
+    color: var(--color-warning);
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .input-container--invalid .input-message-error {
+    color: var(--color-warning);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .textarea-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .textarea-container--invalid .textarea-input {
+    border: 1px solid var(--color-warning);
+  }
+  
+  .textarea-container--invalid .textarea-label {
+    color: var(--color-warning);
+  }
+  
+  .textarea-message-error {
+    display: none;
+  }
+  
+  .textarea-container--invalid .textarea-message-error {
+    display: block;
+    color: var(--color-warning);
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+
+
+
+
+ /* PARA TABLETS  */
+
+ @media screen and (min-width: 768px) {
+    .contacto {
+      align-items: flex-start;
+      padding-right: 2rem;
+      padding-left: 1rem;
+    }
+  
+    .form {
+      width: 100%;
+    }
+  
+   .input {
+      width: 100%;
+    }
+  
+    .textarea-input {
+      width: 97.5%;
+    }
+  }
+  /* PARA PC  */
+  
+  @media screen and (min-width: 1024px) {
+    .contacto {
+      flex-direction: row;
+    }
+  
+    .contacto__text {
+      margin: auto;
+      padding-left: 1rem;
+      padding-right: 2rem;
+    }
+  
+    .contacto__text__title {
+      font-size: 3.25rem;
+    }
+  
+    .contacto__text__paragraph {
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+  }
+
+
+.footer {
+    background: var(--background-footer);
+    text-align: center;
+    padding: 1.2rem 0;
+    height: 2rem;
+    background-color: aqua;
+  }
+  
+  .footer__rodape {
+    margin: 1rem 0;
+    background-color: aqua;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+ 
